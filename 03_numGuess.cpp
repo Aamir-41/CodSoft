@@ -14,20 +14,8 @@ int main() {
     cout << "\n Welcome to the Number Guessing Game!\n";
     cout << " I'm generating a number between 1 and 15....\n";
     cout << " You have only three attempts to guess the number: \n";
-
-    // do {
-    //     cout << "Enter your guess: ";
-    //     cin >> guess;
-
-    //     if (guess > secretNumber) {
-    //         cout << "Too high! Try again.\n";
-    //     } else if (guess < secretNumber) {
-    //         cout << "Too low! Try again.\n";
-    //     } else {
-    //         cout << "Congratulations! You guessed it right.\n";
-    //     }
-    // } while (guess != secretNumber);
-
+    cout << "Good Luck!\n";
+    
     for (int i = 1; i <= attempts; i++)
     {
         cout << "\n Attempts " << i << " : Enter your Guess: ";
